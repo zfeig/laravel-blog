@@ -1,0 +1,21 @@
+body{background: #F0F0F0;font-size: 12px;font-family: "microsoft yahei", "黑体"}
+.logo{width:30px;height:30px;display:inline-block;margin-left:2em;background: url(../images/laravel.png) no-repeat 0 0;margin-top: 10px;}
+.navbar{background: #F4726D}
+#toolbar:hover{background: #fff}
+li.active{background: #fff}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{background: #fff}
+#body{margin-top: 70px;padding: 10px;}
+
+/*register*/
+span.haslogin{font-size:50%;color: #888;margin-left: 2em;}
+#register{margin-top:120px;}
+#reg{background: #fff;border: 1px solid #B3B3B3;padding: 2em;border-radius: 4px;}
+#reg h1{text-align: center;font-size: 160%;margin-top: 1em;margin-bottom: 2em; }
+#reg #forms,#reg #forms li{list-style: none}
+#forms  li{margin-top: 2em;}
+#reg .form-control{width: 90%}
+#forms li span.error{margin-top: 16px;color: #FA7161;display: block}
+#forms li span.right{margin-top: 16px;color: #469046;display: block}
+.error-info{color: #FA7161;width: 50%;margin-left: 3em;cursor: pointer}
+.right-info{color: #46795A;width: 50%;margin-left: 3em;cursor: pointer}
+

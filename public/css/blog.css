@@ -1,0 +1,42 @@
+body{background: #F0F0F0;font-size: 12px;font-family: "microsoft yahei", "黑体"}
+.logo{width:30px;height:30px;display:inline-block;margin-left:2em;background: url(../images/laravel.png) no-repeat 0 0;margin-top: 10px;}
+.navbar{background: #F4726D}
+#toolbar:hover{background: #fff}
+li.active{background: #fff}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{background: #fff}
+#body{margin-top: 70px;padding: 10px;}
+.left,.right{background: #fff;padding: 2em 1em}
+.left,.right{margin: 1%;border: 1px solid #E6E6E6}
+.left .list{padding: 2em;display: block}
+.left .list .list-item{padding:0.5em;border-bottom: 1px solid #F5F5F5 }
+.left .list .list-item .a-brief blockquote{background:#f8f8f8}
+.left .list .list-item .a-brief p{line-height: 30px;color: #555;font-size: 14px;color: #A7D3F7}
+.left .list .list-item .a-tag{color: #999;font-size: 12px;margin:2em 0 1em 0}
+.left .list .list-item .a-info{color: #999;font-size: 12px;}
+
+
+.left .page-nav{margin:2em 4em;}
+.left h2{font-size: 150%;margin-bottom: 1em;}
+.right h1{font-size: 150%;padding: 0.5em;}
+.right .tags a{display: inline-block;margin: 5px;height: 25px;line-height: 25px;text-align: center;background: #99CFFF;color: #fff;padding: 0 1em;border-radius: 6px;}
+
+.recoment li{border: none}
+.cate_tj ul li{}
+
+/*article*/
+.article img{max-width: 100%;overflow: hidden}
+.article .d-title{text-align: center;font-size: 200%}
+.article .d-tool{color: #999;margin: 3em 0em;text-align: center;border-bottom: 1px dotted #f0f0f0;padding-bottom: 1em;}
+.article .d-brief{color: #888;background: #FcFcFc;padding: 2em;border-radius: 1px;margin-bottom: 2em;border:1px solid #EDEDED}
+
+/*tag*/
+span.notice{display: inline-block;background: #F9F2F4;color:#CA254E;margin: 0 1px;padding: 1px;}
+
+/*index*/
+#loginbar{border:none;color:#fff;cursor: pointer}
+#loginbar:hover{background: #FAD3D3}
+#loginbar a{color: #fff}
+
+.no{padding-left: 2em;}
+.photo{display: block;float: left;width: 150px;height: 150px;}
+
