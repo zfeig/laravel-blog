@@ -1,25 +1,19 @@
-## Laravel PHP Framework
+## 基于laravel4.2开发的博客系统，完善的前台和后台
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+前端采用bootstrap响应式布局，后端手写普通布局，以及artdailog弹窗，构建了简单简洁的后台界面，实现了文章，文章标签，文章分类，文章搜索等完整的CURD功能，代码都有详细注释，没有过多封装，比较容易理解！
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+后台着重实现了，文章多标签添加，分类删除，文章回车站，文章单条恢复，文章批量删除等特色功能，思路适合大多数关联性操作，看完了对处理其他关联模型很有帮助
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+基于多用户，实现多用户登录，编辑，查找，权限处理等，实现用户头像处理，博客首面也是基于独立用户展示的，系统首页可以展示多用户的内容，扩展性强，（有点自吹自擂），总之还是有干货的，对于初学laravel的同学来说绝对是不错的入门教材，
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## 关于安装
 
-## Official Documentation
+数据库采用mysql，数据库文件lv.sql,已提供，数据配置看看config里面的db节点；建议使用php artisan serve启动服务来进行浏览测试！
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+### 感谢Laravel
 
-### Contributing To Laravel
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+**php是最好的开发语言，laravel是最好的开发框架，有没有！真心不黑**
 
 ### License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+The   is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
