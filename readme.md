@@ -12,10 +12,10 @@
 
  提供几个登录测试账号及密码：
  
-  *admin@123.com  123456
-  *zfeig@126.com  123456
-  *lisi@126.com   123456
-  *baidu@126.com  123456
+  admin@123.com   123456
+  zfeig@126.com   123456
+  lisi@126.com    123456
+  baidu@126.com   123456
 
 ## 关于安装
 
