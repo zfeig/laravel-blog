@@ -11,10 +11,11 @@
  登录地址，注册地址首页都有链接 http://loclahost:8000/user/login   http://loclahost:8000/user/register  
 
  提供几个登录测试账号及密码：
- admin@123.com  123456
- zfeig@126.com  123456
- lisi@126.com   123456
- baidu@126.com  123456
+ 
+  *admin@123.com  123456
+  *zfeig@126.com  123456
+  *lisi@126.com   123456
+  *baidu@126.com  123456
 
 ## 关于安装
 
