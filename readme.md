@@ -14,7 +14,7 @@
 
 ##关于登录
 
- 登录地址，注册地址首页都有链接 http://loclahost:8000/user/login    http://loclahost:8000/user/register  
+ 登录地址，注册地址首页都有链接 http://loclahost:8000/user/login和http://loclahost:8000/user/register  
 
  提供几个登录测试账号及密码：
  
