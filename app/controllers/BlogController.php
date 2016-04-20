@@ -83,6 +83,9 @@ class BlogController extends BaseController{
         if(!is_object($article)){
             return Response::make('article not exist','404');
         }
+        if(!$article->status){
+            return Response::make('article is missing,maybe is deleted','400');
+        }
         //获取用户id
         $uid=$article->uid;
 
