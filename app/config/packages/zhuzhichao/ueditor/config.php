@@ -2,7 +2,8 @@
 use Illuminate\Support\Facades\Config;
 
 $url = Config::get('app.url').'/packages/zhuzhichao/ueditor/';
-$imgBaseUrl = Config::get('app.url');
+//$imgBaseUrl = Config::get('app.url');
+$imgBaseUrl ="";
 return [
 
 	'editor' => [
